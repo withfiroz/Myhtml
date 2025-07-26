@@ -1,2 +1,67 @@
-# Myhtml
-Project 
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title> firozs portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h2 style="color:skyblue"> welcome to firozs portfolio</h2>
+    <nav>
+      <a href="#about">about</a><br>
+      <a href="#projects">projects</a><br>
+      <a href="#skills">skills</a><br>
+      <a href="#contact">contact</a>
+    </nav>
+  </header>
+  
+  <section id="about">
+    <h2 style="color:yellow">about me</h2>
+    <p style="color:green"> hello, i am firoz naik .Now i am learning web development.</p>
+  </section>
+  
+  <section id="projects">
+    <h2 style="color:yellow">project</h2>
+    <div class="project-card">
+      <h3 style="color:lightblue">wether apk</h3>
+      <p style="color:green"> this apk is show the real time weather report of specific location.</p>
+    </div>
+    
+  </section>
+  
+  <section id="skills">
+    <h2 style="color:yellow">skills</h2>
+    <ul>
+      <li>html</li>
+      <li>css</li>
+      <li>javascript</li>
+    </ul>
+    
+  </section>
+  
+  <section id="contact">
+    <h2 style="color:yellow">contact me</h2>
+    <form>
+        <input type="text" placeholder=" your name">
+    <input type="email" placeholder="your email">
+      <textarea placeholder="your massage"></textarea>
+      <button type="submit">send</button>
+    </form>
+  
+     </section>
+  <section>
+    <p>
+      web page of hemant  and firoz.
+    </p>
+    <a href="design.html"> <img src="h.jpg" height="180" width="160">
+    </a><br>
+    <a href="hem.html"> <img src="IMG_20250415_091706.jpg" height="200"></a>
+  </section>
+  <footer>
+    <p> &copy 2025 firoz</p>
+  </footer>
+</body>
+</html>
